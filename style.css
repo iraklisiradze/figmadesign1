@@ -42,7 +42,7 @@ svg {
   align-self: flex-end;
 }
 svg :hover {
-  stroke:#45D3C2;
+  stroke: #45d3c2;
 }
 .container {
   width: 1400px;
