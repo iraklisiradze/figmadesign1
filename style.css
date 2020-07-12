@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "popins";
+  src:url (fonts/Popins-Regular)
+}
+
 * h1 {
   font-family: Roboto;
   font-style: normal;
@@ -10,7 +15,7 @@
 * p {
   width: 144px;
   height: 58px;
-  font-family: Roboto;
+  font-family: Popins;
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -44,6 +49,26 @@ svg {
 svg :hover {
   stroke: #45d3c2;
 }
+.Cherries svg:hover {
+  fill:#45D3C2 ;
+}
+.avocado svg:hover {
+  fill:#F7BDD1;
+}
+.chilli svg:hover {
+  fill:#DD1F32 ;
+}
+.mandarin svg:hover {
+  fill:#923916 ;
+}
+.blueberry svg:hover {
+  fill:#141626;
+}
+.banana svg:hover {
+  fill:#FDD91A ;
+}
+
+/* first figma start */
 .container {
   width: 1400px;
   height: 700px;
@@ -116,4 +141,103 @@ svg :hover {
   display: flex;
   align-items: center;
   margin: 20px;
+}
+/*first figma finish */
+.container2 {
+  width: 1200px;
+  height: 900px;
+  box-sizing: border-box;
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.Cherries2 {
+  background-color: #2b3566;
+  width: 236px;
+  height: 386px;
+  border-radius: 20px;
+  padding: 20px 22px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.Doughnut {
+  background-color: #4c5371;
+  width: 236px;
+  height: 386px;
+  border-radius: 20px;
+  padding: 20px 22px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+   margin: 20px;
+}
+.Watermelon {
+  background-color: #90d0cc;
+  width: 236px;
+  height: 386px;
+  border-radius: 20px;
+  padding: 20px 22px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.pepper {
+  background-color: #2C2233;
+  width: 236px;
+  height: 386px;
+  border-radius: 20px;
+  padding: 20px 22px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.Doughnut {
+  background-color: #4c5371;
+  width: 236px;
+  height: 386px;
+  border-radius: 20px;
+  padding: 20px 22px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.container2 :any-link {
+  width: 171px;
+  height: 32px;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 14px;
+  border-color:#2B3566;
+  border-radius: 16px;
+  color:white;
+  border: 1px solid #45D3C2;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 9px;
+  
+}
+
+.Cherries2 a {
+  background-color:#45D3C2;
+}
+.Doughnut a {
+  background-color:#FFC2C7;
+}
+.Watermelon a {
+  background-color: #F8687F;
+}
+.pepper {
+  background-color: #744C71;
 }
